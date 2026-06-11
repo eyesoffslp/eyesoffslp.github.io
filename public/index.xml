@@ -16,10 +16,24 @@
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
     </item>
     <item>
+      <title>Blog Post 1</title>
+      <link>http://localhost:1313/updates/blog-post-1/</link>
+      <pubDate>Sat, 18 Jun 2022 11:10:36 +0800</pubDate>
+      <guid>http://localhost:1313/updates/blog-post-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
       <title>News Post 1</title>
       <link>http://localhost:1313/posts/news-post-1/</link>
       <pubDate>Wed, 18 May 2022 11:10:36 +0800</pubDate>
       <guid>http://localhost:1313/posts/news-post-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
+    </item>
+    <item>
+      <title>News Post 1</title>
+      <link>http://localhost:1313/updates/news-post-1/</link>
+      <pubDate>Wed, 18 May 2022 11:10:36 +0800</pubDate>
+      <guid>http://localhost:1313/updates/news-post-1/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
     </item>
     <item>
@@ -111,7 +125,14 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;!-- @format --&gt;&#xD;&#xA;&lt;section class=&#34;lg:pb-24&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;max-w-screen-md px-4 mx-auto&#34;&gt;&#xD;&#xA;      &lt;p class=&#34;mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl&#34;&gt;Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.&lt;/p&gt;&#xD;&#xA;      &lt;form name=&#34;contact&#34; action=&#34;https://formsubmit.co/your@email.com&#34; method=&#34;POST&#34; class=&#34;space-y-8&#34;&gt;&#xD;&#xA;          &lt;div class=&#34;my-4&#34;&gt;&#xD;&#xA;              &lt;label for=&#34;email&#34; class=&#34;block mb-2 font-medium text-gray-900 text-md dark:text-gray-300&#34;&gt;&lt;strong&gt;Your Email:&lt;/strong&gt;&lt;/label&gt;&#xD;&#xA;              &lt;input type=&#34;email&#34; name=&#34;email&#34; class=&#34;shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light&#34; placeholder=&#34;name@example.com&#34; required&gt;&#xD;&#xA;          &lt;/div&gt;&#xD;&#xA;          &lt;div class=&#34;my-4&#34;&gt;&#xD;&#xA;              &lt;label for=&#34;subject&#34; class=&#34;block mb-2 font-medium text-gray-900 text-md dark:text-gray-300&#34;&gt;&lt;strong&gt;Subject:&lt;/strong&gt;&lt;/label&gt;&#xD;&#xA;              &lt;input type=&#34;text&#34; name=&#34;subject&#34; class=&#34;block w-full p-3 text-gray-900 border border-gray-300 rounded-lg shadow-sm text-md bg-gray-50 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 dark:shadow-sm-light&#34; placeholder=&#34;Let us know how we can help you&#34; required&gt;&#xD;&#xA;          &lt;/div&gt;&#xD;&#xA;          &lt;div class=&#34;my-4 sm:col-span-2&#34;&gt;&#xD;&#xA;              &lt;label for=&#34;message&#34; class=&#34;block mb-2 font-medium text-gray-900 text-md dark:text-gray-400&#34;&gt;&lt;strong&gt;Your message:&lt;/strong&gt;&lt;/label&gt;&#xD;&#xA;              &lt;textarea id=&#34;message&#34; name=&#34;message&#34; rows=&#34;6&#34; class=&#34;block p-2.5 w-full text-md text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500&#34; placeholder=&#34;Leave a comment...&#34;&gt;&lt;/textarea&gt;&#xD;&#xA;          &lt;/div&gt;&#xD;&#xA;          &lt;div class=&#34;mt-6 lg:pb-16&#34;&gt;&#xD;&#xA;             &lt;button type=&#34;submit&#34; class=&#34;px-5 py-3 font-bold text-center text-white bg-indigo-600 rounded-lg text-md sm:w-fit hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800&#34;&gt;Send Message&lt;/button&gt;&#xD;&#xA;          &lt;/div&gt;&#xD;&#xA;      &lt;/form&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/section&gt;</description>
+      <description>&lt;p&gt;Send us an email at &lt;a href=&#34;mailto:eyesoffslp@proton.me&#34;&gt;eyesoffslp@proton.me&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FOIA Data Report</title>
+      <link>http://localhost:1313/data/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>http://localhost:1313/data/</guid>
+      <description>&lt;h2 id=&#34;foia-data-report&#34;&gt;FOIA Data Report&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/SLP-Flock-Data-Export-Summary.pdf&#34;&gt;Download as PDF&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;slp-pd-flock-safety-database---audit-findings&#34;&gt;SLP-PD Flock Safety Database - Audit Findings&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Source:&lt;/strong&gt; St. Louis Park MN PD Flock Safety audit records, Jan 2025 - Apr 2026&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;File types:&lt;/strong&gt; Audit (SLP-PD&amp;rsquo;s own searches) + Network-Audit (outside agencies searching SLP-PD&amp;rsquo;s camera network)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prepared:&lt;/strong&gt; May 2026&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;FOIA Link:&lt;/strong&gt; &lt;a href=&#34;https://www.muckrock.com/foi/minnesota-156/slp-pd-flock-safety-audit-207260/&#34;&gt;MuckRock FOIA Request&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SLP ALPR Policy:&lt;/strong&gt; &lt;a href=&#34;https://www.stlouisparkmn.gov/home/showpublisheddocument/28047/638681458304130000&#34;&gt;St. Louis Park ALPR Policy Document&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SLP Flock Portal:&lt;/strong&gt; &lt;a href=&#34;https://transparency.flocksafety.com/saint-louis-park-mn-pd&#34;&gt;Flock Safety Transparency Portal&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flagged Searches:&lt;/strong&gt; &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1N0mutoSio-TcxUIMJMAUKBVUhpV2463KV6Wues7mLpg/edit?usp=sharing&#34;&gt;Google Spreadsheet Document&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;p&gt;The data reveals three distinct eras:&lt;/p&gt;</description>
     </item>
     <item>
       <title>News Post 3</title>
@@ -126,6 +147,13 @@
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
       <guid>http://localhost:1313/prose/</guid>
       <description>&lt;h2 id=&#34;tailwindcsstypography&#34;&gt;@tailwindcss/typography&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/tailwindlabs/tailwindcss-typography&#34;&gt;View on GitHub&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;Beautiful typographic defaults for HTML you don&amp;rsquo;t control.&lt;/p&gt;&#xA;&lt;p&gt;The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.&lt;/p&gt;&#xA;&lt;p&gt;Tailwind CSS IntelliSense extension for Visual Studio Code&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;article class=&amp;#34;prose lg:prose-xl&amp;#34;&amp;gt;&#xD;&#xA;  {{ markdown }}&#xD;&#xA;&amp;lt;/article&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To see what it looks like in action, check out our &lt;a href=&#34;https://play.tailwindcss.com/uj1vGACRJA?layout=preview&#34;&gt;live demo&lt;/a&gt; on Tailwind Play.&#xA;​&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/resources/</link>
+      <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
+      <guid>http://localhost:1313/resources/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Here are some external resources that you might find useful:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://deflock.org/&#34;&gt;DeFlock&lt;/a&gt; - A hub for education, mapping, and more resources related to Flock and ALPR.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.deflockmpls.com/&#34;&gt;DeFlock MPLS&lt;/a&gt; - A Minneapolis-specific DeFlock effort.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.stlouisparkmn.gov/home/showpublisheddocument/28047/638681458304130000&#34;&gt;SLP ALPR Policy&lt;/a&gt; - The official policy document for ALPR use in St. Louis Park.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://transparency.flocksafety.com/saint-louis-park-mn-pd&#34;&gt;SLP Flock Transparency Portal&lt;/a&gt; - A Flock data transparency portal published for St. Louis Park.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ruralprivacy.org/alpr-toolkit&#34;&gt;Rural Privacy ALPR Toolkit&lt;/a&gt; -  Templates and tutorials to help push back against ALPR.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://privacyportal.onetrust.com/webform/abd283d9-9d03-4d74-aa5b-3529f7216767/9669345b-843e-48d3-aa6b-5edf2d1e9c9b&#34;&gt;Flock Privacy Request Portal&lt;/a&gt; - A portal to submit privacy requests to Flock.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
