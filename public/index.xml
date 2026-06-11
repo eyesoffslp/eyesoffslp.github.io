@@ -121,13 +121,6 @@
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
     </item>
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;Send us an email at &lt;a href=&#34;mailto:eyesoffslp@proton.me&#34;&gt;eyesoffslp@proton.me&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>FOIA Data Report</title>
       <link>http://localhost:1313/data/</link>
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
@@ -154,6 +147,20 @@
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
       <guid>http://localhost:1313/resources/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Here are some external resources that you might find useful:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://deflock.org/&#34;&gt;DeFlock&lt;/a&gt; - A hub for education, mapping, and more resources related to Flock and ALPR.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.deflockmpls.com/&#34;&gt;DeFlock MPLS&lt;/a&gt; - A Minneapolis-specific DeFlock effort.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.stlouisparkmn.gov/home/showpublisheddocument/28047/638681458304130000&#34;&gt;SLP ALPR Policy&lt;/a&gt; - The official policy document for ALPR use in St. Louis Park.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://transparency.flocksafety.com/saint-louis-park-mn-pd&#34;&gt;SLP Flock Transparency Portal&lt;/a&gt; - A Flock data transparency portal published for St. Louis Park.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ruralprivacy.org/alpr-toolkit&#34;&gt;Rural Privacy ALPR Toolkit&lt;/a&gt; -  Templates and tutorials to help push back against ALPR.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://privacyportal.onetrust.com/webform/abd283d9-9d03-4d74-aa5b-3529f7216767/9669345b-843e-48d3-aa6b-5edf2d1e9c9b&#34;&gt;Flock Privacy Request Portal&lt;/a&gt; - A portal to submit privacy requests to Flock.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Send us an email at &lt;a href=&#34;mailto:eyesoffslp@proton.me&#34;&gt;eyesoffslp@proton.me&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Request Your ALPR Data</title>
+      <link>http://localhost:1313/request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/request/</guid>
+      <description>&lt;h2 id=&#34;how-to-request-your-data&#34;&gt;How To Request Your Data&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Fill out the template below, replacing all placeholders in [square brackets] with your information (license plate number, name, contact info).&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://laserfiche.stlouispark.org/Forms/PublicInformationRequest&#34;&gt;Submit online&lt;/a&gt; or email to &lt;a href=&#34;mailto:mkennedy@stlouisparkmn.gov&#34;&gt;mkennedy@stlouisparkmn.gov&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;template&#34;&gt;Template&lt;/h3&gt;&#xA;&lt;p&gt;&lt;small&gt;Download as &lt;a href=&#34;http://localhost:1313/SLP Flock Data - Self Search Template.docx&#34;&gt;docx&lt;/a&gt;, &lt;a href=&#34;http://localhost:1313/SLP Flock Data - Self Search Template.pdf&#34;&gt;pdf&lt;/a&gt;, &lt;a href=&#34;http://localhost:1313/SLP Flock Data - Self Search Template.txt&#34;&gt;plain text&lt;/a&gt; or copy below.&lt;/small&gt;&lt;/p&gt;&#xA;&lt;center&gt;+ + +&lt;/center&gt;&#xD;&#xA;&lt;p&gt;Subject: &lt;strong&gt;Data subject access request - ALPR Data &amp;amp; Queries for plate: [YOUR PLATE NUMBER]&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

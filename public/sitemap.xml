@@ -77,9 +77,6 @@
     <loc>http://localhost:1313/posts/blog-post-7/</loc>
     <lastmod>2021-12-18T11:10:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2021-12-18T03:10:36+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/data/</loc>
     <lastmod>2021-12-18T11:10:36+08:00</lastmod>
   </url><url>
@@ -91,5 +88,9 @@
   </url><url>
     <loc>http://localhost:1313/resources/</loc>
     <lastmod>2021-12-18T11:10:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/request/</loc>
   </url>
 </urlset>

@@ -90,17 +90,17 @@ params:
     heading: "Additional Abuses"
     image: "../assets/Screenshot.png"
     links:
-      - text: See the data
-        url: "#"
+      - text: See the data report
+        url: "/data/"
     content:
       - text: Minnetonka PD inappropriately accessed SLP's database to locate individuals without probable cause.
       - text: Carrolton, TX PD and other agencies used SLP's database to track vehicles on the basis of protest activity.
       - text: Maple Grove PD and other agencies used SLP's database for purposes not related to law enforcement, such as traffic studies.
       - text: The above are a small subset of queries we believe to be possible violations of Minnesota ALPR Law.
-  p4:
-    heading: "Updates"
-    content:
-      - text: "Updates and news about our campaign to DeFlock SLP."
+  # p5:
+  #   heading: "Updates"
+  #   content:
+  #     - text: "Updates and news about our campaign to DeFlock SLP."
 
   social_media:
     github:
@@ -120,19 +120,24 @@ params:
 menu:
   main:
     - identifier: data
-      name: Data
+      name: FOIA Data Report
       url: /data/
       weight: 10
+
+    - identifier: request
+      name: Request your ALPR Data
+      url: /request/
+      weight: 15
     
     - identifier: Resources
       name: Resources
       url: /resources/
       weight: 20
     
-    - identifier: updates
-      name: Updates
-      url: /updates
-      weight: 30
+    # - identifier: updates
+    #   name: Updates
+    #   url: /updates
+    #   weight: 30
 
     - identifier: contact
       name: Contact
@@ -141,19 +146,24 @@ menu:
 
   footer:
     - identifier: data
-      name: Data
+      name: FOIA Data Report
       url: /data/
       weight: 10
     
+    - identifier: request
+      name: Request your ALPR Data
+      url: /request/
+      weight: 15
+
     - identifier: Resources
       name: Resources
       url: /resources/
       weight: 20
     
-    - identifier: updates
-      name: Updates
-      url: /updates/
-      weight: 30
+    # - identifier: updates
+    #   name: Updates
+    #   url: /updates/
+    #   weight: 30
 
     - identifier: contact
       name: Contact
