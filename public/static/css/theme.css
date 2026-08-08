@@ -43,7 +43,7 @@ html.dark-theme .theme-panel .img-thumbnail {
     border-color: var(--border-color);
 }
 
-html.dark-theme a:not(.nav-link):not(.link-light) {
+html.dark-theme a:not(.nav-link):not(.link-light):not(.navbar-brand):not(.alert-link) {
     color: var(--link-color);
 }
 
