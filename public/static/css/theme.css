@@ -48,6 +48,14 @@ html.dark-theme a:not(.nav-link):not(.link-light) {
 }
 
 html.dark-theme .table {
+    --bs-table-color: var(--panel-text);
+    --bs-table-bg: var(--panel-bg);
+    --bs-table-border-color: var(--border-color);
+    --bs-table-striped-bg: #273244;
+    --bs-table-striped-color: var(--panel-text);
+    --bs-table-hover-bg: #2f3c52;
+    --bs-table-hover-color: var(--panel-text);
+    background-color: var(--panel-bg);
     color: var(--panel-text);
 }
 
