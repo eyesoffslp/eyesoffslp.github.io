@@ -94,9 +94,11 @@
 
     <div class="text-bg-light">
         <div class="alert alert-warning alert-dismissible fade show pr-0 pr-md-5" role="alert">
-            Thank you for joining us for <em>Flock Off!</em>
-            <a class="alert-link" href="posts/flockoff.html">Click here</a>
-            to access your event materials.
+            <h5>
+                <strong>Tell Your City: <em>Flock Out of St. Louis Park!</em></strong> &mdash;
+                Read more & sign the petition <a class="alert-link"
+                    href="https://actionnetwork.org/petitions/petition-for-termination-of-flock-contract-and-ethical-alpr-review-in-st-louis-park">here.</a>
+            </h5>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         <div class="container">
@@ -224,9 +226,11 @@
 
     <div class="text-bg-dark text-center">
         <div class="container py-5">
-                <div class="row mb-5">
+            <div class="row mb-5">
                 <div class="col">
-                    <a href="#top" class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">&uparrow; Back to top</a>
+                    <a href="#top"
+                        class="link-light link-underline-opacity-0 link-underline-opacity-100-hover">&uparrow; Back to
+                        top</a>
                 </div>
             </div>
             <div class="row">
@@ -237,7 +241,33 @@
         </div>
     </div>
 
+    <div class="modal fade" id="petitionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Keep the Pressure Up</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Thank you everyone who attended the Flock Off event! If you haven't already, please read and sign the 
+                        <a target="_blank" href="https://actionnetwork.org/petitions/petition-for-termination-of-flock-contract-and-ethical-alpr-review-in-st-louis-park">ALPR petition to the St. Louis Park City Council.</a>
+                    </p>
+                    <p>
+                        Share it with your friends and neighbors, and let's keep the pressure on to end mass surveillance in our community. 
+                        You can also visit the "Take Action" tab in the navigation bar for more ways to get involved, including contacting the city council and requesting your ALPR data.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button id="petitionModalDismiss" type="button" class="btn btn-secondary">Close and do not show again</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="static/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/home.js"></script>
 </body>
 
 </html>

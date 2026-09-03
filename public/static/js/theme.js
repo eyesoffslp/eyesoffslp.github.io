@@ -1,4 +1,4 @@
-(function () {
+(() => {
     let initialized = false;
 
     function getInitialTheme() {
@@ -6,15 +6,21 @@
             const storedTheme = localStorage.getItem('theme');
             const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
             return storedTheme ? storedTheme === 'dark' : prefersDark;
-        } catch (e) {
+        } catch {
             return false;
         }
     }
 
-    function applyTheme(isDark) {
+    const initialTheme = getInitialTheme();
+
+    function applyDocumentTheme(isDark) {
         document.documentElement.classList.toggle('dark-theme', isDark);
         document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';
-        document.body?.classList.toggle('dark-theme', isDark);
+    }
+
+    function applyTheme(isDark) {
+        applyDocumentTheme(isDark);
+        document.body.classList.toggle('dark-theme', isDark);
     }
 
     function updateThemeButtons(isDark) {
@@ -37,9 +43,8 @@
         }
 
         initialized = true;
-        const isDark = getInitialTheme();
-        applyTheme(isDark);
-        updateThemeButtons(isDark);
+        document.body.classList.toggle('dark-theme', initialTheme);
+        updateThemeButtons(initialTheme);
 
         const themeToggleLight = document.getElementById('themeToggleLight');
         const themeToggleDark = document.getElementById('themeToggleDark');
@@ -50,15 +55,13 @@
                 applyTheme(shouldUseDark);
                 try {
                     localStorage.setItem('theme', shouldUseDark ? 'dark' : 'light');
-                } catch (e) {}
+                } catch {}
                 updateThemeButtons(shouldUseDark);
             });
         });
     }
 
-    const initialTheme = getInitialTheme();
-    applyTheme(initialTheme);
-    updateThemeButtons(initialTheme);
+    applyDocumentTheme(initialTheme);
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initializeThemeControls, { once: true });
